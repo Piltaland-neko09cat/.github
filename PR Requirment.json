@@ -1,5 +1,5 @@
 {
-  "id": 11757967,
+  "id": 11758007,
   "name": "PR Requirment",
   "target": "branch",
   "source_type": "Repository",
@@ -33,10 +33,13 @@
           "merge"
         ]
       }
-    },
-    {
-      "type": "required_linear_history"
     }
   ],
-  "bypass_actors": []
+  "bypass_actors": [
+    {
+      "actor_id": null,
+      "actor_type": "OrganizationAdmin",
+      "bypass_mode": "pull_request"
+    }
+  ]
 }
